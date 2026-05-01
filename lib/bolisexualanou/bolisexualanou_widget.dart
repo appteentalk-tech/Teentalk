@@ -149,8 +149,7 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                                       Colors.transparent,
                                                   onTap: () async {
                                                     context.pushNamed(
-                                                      Trichomoniasis1Widget
-                                                          .routeName,
+                                                      VidboliWidget.routeName,
                                                       extra: <String, dynamic>{
                                                         '__transition_info__':
                                                             TransitionInfo(
@@ -248,7 +247,7 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                                       Colors.transparent,
                                                   onTap: () async {
                                                     context.pushNamed(
-                                                      BolisexualetesteWidget
+                                                      TestebolisexWidget
                                                           .routeName,
                                                       extra: <String, dynamic>{
                                                         '__transition_info__':
@@ -293,7 +292,7 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                                                   0.0,
                                                                   0.0),
                                                       child: Text(
-                                                        'Start Test',
+                                                        'Start Quizzes',
                                                         textAlign:
                                                             TextAlign.center,
                                                         style: FlutterFlowTheme
@@ -337,8 +336,7 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                         hoverColor: Colors.transparent,
                                         highlightColor: Colors.transparent,
                                         onTap: () async {
-                                          context.pushNamed(
-                                              LessonsWidget.routeName);
+                                          context.safePop();
                                         },
                                         child: Container(
                                           width: 54.5,
@@ -602,7 +600,7 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                                       );
                                                     },
                                                     child: Container(
-                                                      width: 127.59,
+                                                      width: 127.6,
                                                       height: 38.4,
                                                       decoration: BoxDecoration(
                                                         color:
@@ -1370,6 +1368,11 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                               ),
                                             ),
                                           ),
+                                          Icon(
+                                            Icons.lock_outline,
+                                            color: Color(0xFFBDBDBD),
+                                            size: 20.0,
+                                          ),
                                         ],
                                       ),
                                     ),
@@ -1529,6 +1532,11 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                                 ),
                                               ),
                                             ),
+                                          ),
+                                          Icon(
+                                            Icons.lock_outline,
+                                            color: Color(0xFFBDBDBD),
+                                            size: 20.0,
                                           ),
                                         ],
                                       ),
@@ -1690,6 +1698,11 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                               ),
                                             ),
                                           ),
+                                          Icon(
+                                            Icons.lock_outline,
+                                            color: Color(0xFFBDBDBD),
+                                            size: 20.0,
+                                          ),
                                         ],
                                       ),
                                     ),
@@ -1849,6 +1862,11 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                                 ),
                                               ),
                                             ),
+                                          ),
+                                          Icon(
+                                            Icons.lock_outline,
+                                            color: Color(0xFFBDBDBD),
+                                            size: 20.0,
                                           ),
                                         ],
                                       ),
@@ -2010,6 +2028,11 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                               ),
                                             ),
                                           ),
+                                          Icon(
+                                            Icons.lock_outline,
+                                            color: Color(0xFFBDBDBD),
+                                            size: 20.0,
+                                          ),
                                         ],
                                       ),
                                     ),
@@ -2169,6 +2192,11 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                                 ),
                                               ),
                                             ),
+                                          ),
+                                          Icon(
+                                            Icons.lock_outline,
+                                            color: Color(0xFFBDBDBD),
+                                            size: 20.0,
                                           ),
                                         ],
                                       ),
@@ -2330,6 +2358,11 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                               ),
                                             ),
                                           ),
+                                          Icon(
+                                            Icons.lock_outline,
+                                            color: Color(0xFFBDBDBD),
+                                            size: 20.0,
+                                          ),
                                         ],
                                       ),
                                     ),
@@ -2489,6 +2522,11 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                                 ),
                                               ),
                                             ),
+                                          ),
+                                          Icon(
+                                            Icons.lock_outline,
+                                            color: Color(0xFFBDBDBD),
+                                            size: 20.0,
                                           ),
                                         ],
                                       ),
@@ -2650,6 +2688,11 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                               ),
                                             ),
                                           ),
+                                          Icon(
+                                            Icons.lock_outline,
+                                            color: Color(0xFFBDBDBD),
+                                            size: 20.0,
+                                          ),
                                         ],
                                       ),
                                     ),
@@ -2810,6 +2853,11 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                               ),
                                             ),
                                           ),
+                                          Icon(
+                                            Icons.lock_outline,
+                                            color: Color(0xFFBDBDBD),
+                                            size: 20.0,
+                                          ),
                                         ],
                                       ),
                                     ),
@@ -2969,6 +3017,11 @@ class _BolisexualanouWidgetState extends State<BolisexualanouWidget> {
                                                 ),
                                               ),
                                             ),
+                                          ),
+                                          Icon(
+                                            Icons.lock_outline,
+                                            color: Color(0xFFBDBDBD),
+                                            size: 20.0,
                                           ),
                                         ],
                                       ),

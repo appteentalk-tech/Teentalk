@@ -1,31 +1,30 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_video_player.dart';
-import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'totboli_model.dart';
-export 'totboli_model.dart';
+import 'vidboli_model.dart';
+export 'vidboli_model.dart';
 
-class TotboliWidget extends StatefulWidget {
-  const TotboliWidget({super.key});
+class VidboliWidget extends StatefulWidget {
+  const VidboliWidget({super.key});
 
-  static String routeName = 'totboli';
-  static String routePath = '/totboli';
+  static String routeName = 'vidboli';
+  static String routePath = '/vidboli';
 
   @override
-  State<TotboliWidget> createState() => _TotboliWidgetState();
+  State<VidboliWidget> createState() => _VidboliWidgetState();
 }
 
-class _TotboliWidgetState extends State<TotboliWidget> {
-  late TotboliModel _model;
+class _VidboliWidgetState extends State<VidboliWidget> {
+  late VidboliModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => TotboliModel());
+    _model = createModel(context, () => VidboliModel());
 
     WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
@@ -73,16 +72,7 @@ class _TotboliWidgetState extends State<TotboliWidget> {
                       hoverColor: Colors.transparent,
                       highlightColor: Colors.transparent,
                       onTap: () async {
-                        context.pushNamed(
-                          LessonsWidget.routeName,
-                          extra: <String, dynamic>{
-                            '__transition_info__': TransitionInfo(
-                              hasTransition: true,
-                              transitionType: PageTransitionType.fade,
-                              duration: Duration(milliseconds: 0),
-                            ),
-                          },
-                        );
+                        context.safePop();
                       },
                       child: Container(
                         width: 60.0,

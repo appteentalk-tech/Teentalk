@@ -66,7 +66,16 @@ class _AiWidgetState extends State<AiWidget> {
                   hoverColor: Colors.transparent,
                   highlightColor: Colors.transparent,
                   onTap: () async {
-                    context.pushNamed(HomepageWidget.routeName);
+                    context.pushNamed(
+                      HomepageWidget.routeName,
+                      extra: <String, dynamic>{
+                        '__transition_info__': TransitionInfo(
+                          hasTransition: true,
+                          transitionType: PageTransitionType.fade,
+                          duration: Duration(milliseconds: 0),
+                        ),
+                      },
+                    );
                   },
                   child: Container(
                     width: 60.0,

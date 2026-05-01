@@ -212,7 +212,7 @@ class _LogoutWidgetState extends State<LogoutWidget> {
                                           Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    20.0, 5.0, 20.0, 10.0),
+                                                    7.0, 5.0, 7.0, 10.0),
                                             child: Container(
                                               width: double.infinity,
                                               decoration: BoxDecoration(
@@ -285,9 +285,24 @@ class _LogoutWidgetState extends State<LogoutWidget> {
                                                               .clearRedirectLocation();
 
                                                           context.pushNamedAuth(
-                                                              LoginWidget
-                                                                  .routeName,
-                                                              context.mounted);
+                                                            LoginWidget
+                                                                .routeName,
+                                                            context.mounted,
+                                                            extra: <String,
+                                                                dynamic>{
+                                                              '__transition_info__':
+                                                                  TransitionInfo(
+                                                                hasTransition:
+                                                                    true,
+                                                                transitionType:
+                                                                    PageTransitionType
+                                                                        .fade,
+                                                                duration: Duration(
+                                                                    milliseconds:
+                                                                        0),
+                                                              ),
+                                                            },
+                                                          );
                                                         },
                                                         text: 'Log out',
                                                         options:

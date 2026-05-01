@@ -1,8 +1,8 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'caresupport_copy_widget.dart' show CaresupportCopyWidget;
+import 'vidboli_widget.dart' show VidboliWidget;
 import 'package:flutter/material.dart';
 
-class CaresupportCopyModel extends FlutterFlowModel<CaresupportCopyWidget> {
+class VidboliModel extends FlutterFlowModel<VidboliWidget> {
   @override
   void initState(BuildContext context) {}
 

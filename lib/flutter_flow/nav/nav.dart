@@ -702,19 +702,19 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => CaresupporttCopyWidget(),
         ),
         FFRoute(
-          name: CaresupportCopyWidget.routeName,
-          path: CaresupportCopyWidget.routePath,
-          builder: (context, params) => CaresupportCopyWidget(),
-        ),
-        FFRoute(
           name: ConsentvideoWidget.routeName,
           path: ConsentvideoWidget.routePath,
           builder: (context, params) => ConsentvideoWidget(),
         ),
         FFRoute(
-          name: TotboliWidget.routeName,
-          path: TotboliWidget.routePath,
-          builder: (context, params) => TotboliWidget(),
+          name: VidboliWidget.routeName,
+          path: VidboliWidget.routePath,
+          builder: (context, params) => VidboliWidget(),
+        ),
+        FFRoute(
+          name: TestebolisexWidget.routeName,
+          path: TestebolisexWidget.routePath,
+          builder: (context, params) => TestebolisexWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
       observers: [routeObserver],

@@ -310,8 +310,20 @@ class _ConsentvideoWidgetState extends State<ConsentvideoWidget> {
                                                       Colors.transparent,
                                                   onTap: () async {
                                                     context.pushNamed(
-                                                        ContraceptiatesteWidget
-                                                            .routeName);
+                                                      ContraceptiatesteWidget
+                                                          .routeName,
+                                                      extra: <String, dynamic>{
+                                                        '__transition_info__':
+                                                            TransitionInfo(
+                                                          hasTransition: true,
+                                                          transitionType:
+                                                              PageTransitionType
+                                                                  .fade,
+                                                          duration: Duration(
+                                                              milliseconds: 0),
+                                                        ),
+                                                      },
+                                                    );
                                                   },
                                                   child: Container(
                                                     width: 109.4,
@@ -334,8 +346,23 @@ class _ConsentvideoWidgetState extends State<ConsentvideoWidget> {
                                                           Colors.transparent,
                                                       onTap: () async {
                                                         context.pushNamed(
-                                                            ConsenttestWidget
-                                                                .routeName);
+                                                          ConsenttestWidget
+                                                              .routeName,
+                                                          extra: <String,
+                                                              dynamic>{
+                                                            '__transition_info__':
+                                                                TransitionInfo(
+                                                              hasTransition:
+                                                                  true,
+                                                              transitionType:
+                                                                  PageTransitionType
+                                                                      .fade,
+                                                              duration: Duration(
+                                                                  milliseconds:
+                                                                      0),
+                                                            ),
+                                                          },
+                                                        );
                                                       },
                                                       child: Stack(
                                                         children: [

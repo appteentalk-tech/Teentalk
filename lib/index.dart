@@ -163,7 +163,6 @@ export '/bolisexuale/her5/her5_widget.dart' show Her5Widget;
 export '/bolisexuale/tri5/tri5_widget.dart' show Tri5Widget;
 export '/mame/caresupportt_copy/caresupportt_copy_widget.dart'
     show CaresupporttCopyWidget;
-export '/caresupport_copy/caresupport_copy_widget.dart'
-    show CaresupportCopyWidget;
 export '/consent/consentvideo/consentvideo_widget.dart' show ConsentvideoWidget;
-export '/totboli/totboli_widget.dart' show TotboliWidget;
+export '/vidboli/vidboli_widget.dart' show VidboliWidget;
+export '/testebolisex/testebolisex_widget.dart' show TestebolisexWidget;
