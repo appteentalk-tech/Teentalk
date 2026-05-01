@@ -132,11 +132,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ConsentWidget(),
         ),
         FFRoute(
-          name: AnatomieWidget.routeName,
-          path: AnatomieWidget.routePath,
-          builder: (context, params) => AnatomieWidget(),
-        ),
-        FFRoute(
           name: Test1question1Widget.routeName,
           path: Test1question1Widget.routePath,
           builder: (context, params) => Test1question1Widget(),
@@ -175,11 +170,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: Anatomie1Widget.routeName,
           path: Anatomie1Widget.routePath,
           builder: (context, params) => Anatomie1Widget(),
-        ),
-        FFRoute(
-          name: AnatomiepaginacorpWidget.routeName,
-          path: AnatomiepaginacorpWidget.routePath,
-          builder: (context, params) => AnatomiepaginacorpWidget(),
         ),
         FFRoute(
           name: Thebestcontraceptionmethod1Widget.routeName,
@@ -422,11 +412,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => BolisexualetesteWidget(),
         ),
         FFRoute(
-          name: MamiciWidget.routeName,
-          path: MamiciWidget.routePath,
-          builder: (context, params) => MamiciWidget(),
-        ),
-        FFRoute(
           name: LogoutWidget.routeName,
           path: LogoutWidget.routePath,
           builder: (context, params) => LogoutWidget(),
@@ -440,11 +425,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: IncomemothersWidget.routeName,
           path: IncomemothersWidget.routePath,
           builder: (context, params) => IncomemothersWidget(),
-        ),
-        FFRoute(
-          name: RightsWidget.routeName,
-          path: RightsWidget.routePath,
-          builder: (context, params) => RightsWidget(),
         ),
         FFRoute(
           name: RightsmomWidget.routeName,
@@ -672,11 +652,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => Tri3Widget(),
         ),
         FFRoute(
-          name: CaresupporttWidget.routeName,
-          path: CaresupporttWidget.routePath,
-          builder: (context, params) => CaresupporttWidget(),
-        ),
-        FFRoute(
           name: Tri31Widget.routeName,
           path: Tri31Widget.routePath,
           builder: (context, params) => Tri31Widget(),
@@ -695,11 +670,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: Tri5Widget.routeName,
           path: Tri5Widget.routePath,
           builder: (context, params) => Tri5Widget(),
-        ),
-        FFRoute(
-          name: CaresupporttCopyWidget.routeName,
-          path: CaresupporttCopyWidget.routePath,
-          builder: (context, params) => CaresupporttCopyWidget(),
         ),
         FFRoute(
           name: ConsentvideoWidget.routeName,
