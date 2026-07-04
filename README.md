@@ -27,6 +27,7 @@ Creați un cont în FlutterFlow, apoi faceți clic pe „Clone” pentru a obți
 Date de autentificare:
 
 E-mail: appteentalk@gmail.com
+
 Parolă: TeenTalk
 
 Alternativ, vă puteți crea propriul cont.
