@@ -1,3 +1,17 @@
+Rolul membrilor:
+Medvedev Medeea-Stefania
+• Project Manager
+• Back-end Developer
+• AI Developer
+• UI/UX Designer
+Sandu Teodora-Elena
+• Front-end Developer
+• Web Engineer
+• Researcher
+
+Resurse externe:
+Pentru reformularea și traducerea unor texte a fost utilizat ChatGPT. Conținutul informațional nu a fost generat de inteligența artificială. Toate informațiile prezentate în aplicație au fost furnizate și verificate pe baza materialelor realizate de medici specializați. ChatGPT a fost folosit exclusiv pentru îmbunătățirea formulării și traducerea textelor.
+
 Accesați cea mai recentă versiune a aplicației
 TeenTalk – Run Mode în FlutterFlow:
 https://app.flutterflow.io/run/dsrwv2xlAuSUjZXNHQl8
