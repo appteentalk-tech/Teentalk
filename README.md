@@ -30,7 +30,7 @@ E-mail: appteentalk@gmail.com
 
 Parolă: TeenTalk
 
-Alternativ, vă puteți crea propriul cont.
+Sau vă puteți crea propriul cont în aplicația noastră
 
 Proiectul public TeenTalk în FlutterFlow:
 https://app.flutterflow.io/project/teen-talk-tqno85
