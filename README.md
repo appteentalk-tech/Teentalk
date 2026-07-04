@@ -1,10 +1,12 @@
 Rolul membrilor:
-Medvedev Medeea-Stefania
+
+Medvedev Medeea-Stefania: 
 • Project Manager
 • Back-end Developer
 • AI Developer
 • UI/UX Designer
-Sandu Teodora-Elena
+
+Sandu Teodora-Elena:
 • Front-end Developer
 • Web Engineer
 • Researcher
