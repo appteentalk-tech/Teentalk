@@ -1,6 +1,7 @@
 
 Accesați cea mai recentă versiune a aplicației
-TeenTalk – Run Mode în FlutterFlow:
+TeenTalk – 
+Run Mode în FlutterFlow:
 https://app.flutterflow.io/run/dsrwv2xlAuSUjZXNHQl8
 
 Dacă doriți să explorați aplicația noastră în detaliu, accesați următorul link:
