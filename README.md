@@ -12,7 +12,7 @@ Sandu Teodora-Elena:
 • Researcher
 
 Resurse externe:
-Pentru reformularea și traducerea unor texte a fost utilizat ChatGPT. Conținutul informațional nu a fost generat de inteligența artificială. Toate informațiile prezentate în aplicație au fost furnizate și verificate pe baza materialelor realizate de medici specializați. ChatGPT a fost folosit exclusiv pentru îmbunătățirea formulării și traducerea textelor.
+Pentru reformularea și traducerea unor texte a fost utilizat ChatGPT. Conținutul informațional nu a fost generat de inteligența artificială. Toate informațiile prezentate în aplicație au fost elaborate și verificate de Dr. Calapod Florina Roxana și psiholog Opincariu Florina. ChatGPT a fost folosit exclusiv pentru îmbunătățirea formulării și traducerea textelor.
 
 Accesați cea mai recentă versiune a aplicației
 TeenTalk – Run Mode în FlutterFlow:
